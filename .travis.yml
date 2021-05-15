@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+branches:
+  only:
+    - master
+node_js:
+  - node
+cache:
+  directories:
+    - ~/.npm
+    - ~/.nuxt
+    - node_modules
+before_script:
+  - npm install -g yarn@latest
+install:
+  - yarn
+  - yarn setup:default
+script:
+  - yarn build

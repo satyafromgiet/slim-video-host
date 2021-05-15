@@ -1,0 +1,19 @@
+{
+  "storagePath": "videos",
+  "host": "http://example.com",
+  "spaceLimit": 100000000000,
+  "productionLogging": "none",
+  "port": 3000,
+  "selfHosted": false,
+  "tls": {
+    "email": "email@example.com",
+    "domains": ["domain1.com", "domain2.com"],
+    "tos": false
+  },
+  "mail": {
+    "username": "something@gmail.com",
+    "password": "password"
+  },
+  "dbPath": "db",
+  "infiniteSessions": true
+}
